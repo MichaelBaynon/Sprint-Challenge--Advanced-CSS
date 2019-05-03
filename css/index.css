@@ -194,6 +194,45 @@ a {
   margin: 0 auto;
   width: 805px;
 }
+@media (max-width: 500px) {
+  body {
+    max-width: 500px;
+  }
+  h1 {
+    Font-size: 40px;
+  }
+  a {
+    font-size: 15px;
+  }
+  .logo {
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 200px;
+    justify-content: center;
+    padding-bottom: 2px;
+    display: flex;
+  }
+  .logo .spaceWalkers {
+    margin: 0 auto;
+  }
+  .nav {
+    padding: 10px;
+    margin: 0 auto;
+    width: 550px;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .nav .navItem {
+    align-content: space-evenly;
+    color: black;
+    text-decoration: none;
+  }
+  .mainImg {
+    border-top: 2px dashed;
+    margin: 0 auto;
+    width: 805px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -246,6 +285,11 @@ footer {
   padding-top: 5px;
   background-color: darkblue;
   color: white;
+}
+.home .walk .btn:hover {
+  color: darkblue;
+  background-color: white;
+  border: white;
 }
 .home .walk .walk-text {
   width: 50%;
