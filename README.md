@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+The difference between these two is the fact that on a responsive design there is only one file that controls all different resolution, sizes, and aspect ratios. Where as on an adaptive website there are multiple files that each control their own platform respectively.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is just that it implies that you started by coding the mobile site first and as a result you went ahead and scaled up where as desktop to mobile people would consider scaling down. In addition some people even consider mobile first as moving backwards through the code in comparison to just doing desktop first. Although harder (depending on who you ask) mobile first scores higher on Seach Engine Algorithims. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It allows us to defile all the other rem units based off of a percentage set in the html file. Basically for convenience sake.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is the process of choosing a program and allowing that program to translate its syntax into css. Usually for the sake off efficiency or organization.
+Basically a program is gonna allow you to write css more organized, cleaner, etc and then its gonna go ahead and translate it into plain old css for you reducing you work load and making you more peaceful, organized, and efficient. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like the fact that in theory we can keep our file cleaner but in reality I actually have more trouble managing the preprocessor then if I were to just write plain old css. Maybe I will see the value with time or maybe with a different preprocessing program but for now I am constantly wishing I could just go straight into my css to write code.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
