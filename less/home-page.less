@@ -4,6 +4,9 @@
 
   .intro {
 
+    
+    
+
     h2 {
       padding: 15px;
     }
@@ -46,6 +49,27 @@
     display: flex;
     justify-content: center;
 
+    .btn {
+      
+      font-size: 15px;
+      padding-left: 23px;
+      border-radius: 4px;
+      width: 100px;
+      height: 35px;
+      padding-top: 5px;
+      background-color: darkblue;
+      color: white;
+    
+     &:hover {
+       
+        color: darkblue;
+        background-color: white;
+        border: white;
+        
+        
+      }
+    }
+
     .walk-text {
       width: 50%;
 
@@ -57,8 +81,7 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-      }
+      
     }
 
     .walk-img {
@@ -73,3 +96,79 @@
     }
   }
 }// home
+
+@media @phone {
+
+.skyIMG {
+  display: none;
+}
+
+.launchIMG {
+  display: none;
+}
+
+p {
+  font-size: 14px;
+}
+
+.space-images {
+  
+  img{
+    width: 100%;
+  }
+}
+
+.walk {
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  padding: 0px;
+
+  .walk-img {
+    width: 100%;
+  }
+}
+
+.home .walk .walk-text {
+  width: 100%;
+  padding: 0px;
+  margin-left: -40px;
+  height: 70%;
+  margin-top: 60px;
+}
+
+.home .walk .walk-img {
+  width: 138%;
+  margin: -48px;
+  border-radius: 20px;
+  height: 100%;
+  padding-top: 10px;
+
+}
+
+.home .space-images img {
+  width: 100%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+
+  .home .walk .btn {
+    font-size: 15px;
+    padding-left: 20px;
+    border-radius: 4px;
+    width: 350px;
+    height: 55px;
+    padding-top: 5px;
+    background-color: darkblue;
+    color: white;
+  
+    p {
+      margin-left: 125px;
+      margin-top: 11px;
+      font-size: 16px;
+    }
+  
+  }
+}
